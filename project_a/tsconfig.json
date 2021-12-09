@@ -10,8 +10,6 @@
     "allowJs": true
   },
   "files": [
-    "main.ts",
-    "fuse.js",
-    "fuse.d.ts"
+    "main.ts"
   ]
 }
