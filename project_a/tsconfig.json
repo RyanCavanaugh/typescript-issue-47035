@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "rootDir": ".",
+    "outDir": "tsc",
+    "composite": true,
+    "declaration": true,
+    "tsBuildInfoFile": "tsconfig.tsbuildinfo",
+    "allowJs": true
+  },
+  "files": [
+    "main.ts",
+    "fuse.js",
+    "fuse.d.ts"
+  ]
+}

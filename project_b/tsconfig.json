@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "rootDir": ".",
+    "outDir": "tsc",
+    "paths": {
+      "chrome://project-a/*": [
+        "./../project_a/tsc/*"
+      ]
+    }
+  },
+  "files": [
+    "main.ts"
+  ],
+  "references": [
+    {
+      "path": "../project_a/tsconfig.json"
+    }
+  ]
+}
